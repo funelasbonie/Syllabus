@@ -1,0 +1,227 @@
+/* Application Name: Syllabus
+Author: Bonifacio Funelas
+Author URI: http://underscores.me/
+Description: Description
+Version: 1.0.0 */
+
+/* DOCUMENT
+==================================================================== */
+
+html {
+    position: relative;
+    min-height: 100%;
+	line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */    
+}
+
+@font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url('css/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.eot');
+    src: url('css/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('css/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.woff') format('woff'), url('css/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('css/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
+
+body{
+    background-image: url(../images/bg5.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.modal{
+    background-color: rgba(0,0,0,0.4);
+    padding: 20px;
+}
+
+.navbar-fixed-top{
+    background-color: rgb(0,115,170);            
+    border: 1px solid rgb(0,115,170);            
+}    
+
+/* Index
+==================================================================== */
+
+div.index-main{
+    width:30%;
+    margin: auto;
+    padding: 20px 10px;
+}
+
+div.index-main-img{
+    padding: 60px 0px 30px 0px;
+    text-align: center
+}
+
+div.index-main-input input{
+    font-size: 18px;
+    padding: 20px 10px;
+    border-radius: 6px;
+}
+
+/* Main
+==================================================================== */
+
+.cont-index{
+    padding: 15px
+}
+
+hr{
+    border: 0.3px solid rgb(0,115,170);
+}
+
+.std{
+    text-align: center;      
+}
+
+.std-icon{
+    font-size: 80px;        
+    padding: 30px;
+    border-radius: 90px;
+    color:rgb(0,115,170);
+    background-color: white;
+}
+
+div.year{
+    float: left;  
+}
+
+div.sem{
+    float: right; 
+}
+
+.cont-index button{
+    color:rgb(0,115,170);
+    border: transparent;
+}
+
+.cont-index button:hover{
+    color:rgb(0,115,170);
+    border: transparent;
+}
+
+/* Subjects
+==================================================================== */
+
+.subjects{
+    padding: 10px 0px;
+}
+
+.subjects-sub{
+    padding: 15px;    
+    background-color: white;
+    border: 1px solid white; 
+    border-radius: 5px
+}
+
+.subjects-sub label{
+    font-size: 20px;
+}
+
+
+/* Syllabus
+==================================================================== */
+
+.syllabus-title{
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.cont-syllabus .syllabus-table{
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px
+}
+
+.container .subject-subname{
+    font-size: 20px;
+}
+.container .subject-subdesc{
+    text-align: justify;
+}
+
+
+/* Contact
+==================================================================== */
+
+.cont-contact .cont-div-main{    
+    padding: 10px 0px;
+    border-radius: 5px;
+}
+.cont-contact .cont-div{
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.cont-contact .name{
+    font-size: 20px;
+}
+
+.cont-contact span{
+    color:rgb(0,115,170);
+}
+
+/* Footer
+==================================================================== */
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button{
+    -webkit-appearance:none;
+}
+
+input[type="number"]{
+    -moz-appearance:textfield;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;                    
+}
+
+.container .text-muted {
+    margin: 20px 0;
+}
+
+.footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+code {
+    font-size: 80%;
+}
+.modal{
+    background-color: rgba(0,0,0,0.4);
+    padding: 20px;
+}
+
+/* Responsive
+==================================================================== */
+
+
+@media screen and (max-width: 60.5em){
+    div.index-main{
+        width: 40%;
+        margin: auto;
+        padding: 20px 10px;
+    }
+}   
+
+@media screen and (max-width: 37.5em) {
+    div.index-main{
+        width:100%;
+        margin: auto;
+        padding: 20px 10px;
+    }
+}
+

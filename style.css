@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(240,240,240);
+}
+hr{
+    border-bottom: 1px solid darkgray;
+}
+/* ---------main---------- */
+.std{
+    text-align: center;      
+}
+.std-icon{
+    font-size: 80px;    
+}
+div.year{
+    float: left;  
+}
+div.sem{
+    float: right; 
+}
+/* ---------subjects---------- */
+.subjects{
+    padding: 10px 0px;
+}
+.subjects-sub{
+    padding: 15px;
+    background-color: white;
+    border: 1px solid black;
+}
+.subjects-sub label{
+    font-size: 20px;
+}
+/* ---------syllabus---------- */
+.container .subject-subname{
+    font-size: 20px;
+}
+.container .subject-subdesc{
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
